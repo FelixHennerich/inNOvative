@@ -13,13 +13,13 @@ import SwiftUI
 struct inNOvativeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView().navigationBarBackButtonHidden(true)
+            ContentView().background(.black)
         }
     }
 }
 
 class User: ObservableObject {
-    @Published var score = 0
+    @Published var cookies = 0
 }
 
 // Screen width.

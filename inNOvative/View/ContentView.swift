@@ -18,7 +18,7 @@ struct ContentView: View {
                     Text("Show Detail View")
                 }
             }
-            .navigationTitle("Navigation")
+            .navigationTitle("Navigation 123")
         }
         .environmentObject(user)
         .colorInvert()

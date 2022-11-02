@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC0E1D072913193D007E3D72 /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E1D062913193D007E3D72 /* FileUtils.swift */; };
+		DC0E1D0A2913225F007E3D72 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E1D092913225F007E3D72 /* LoginView.swift */; };
 		DC1E219D290C07010040EA4F /* inNOvativeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E219C290C07010040EA4F /* inNOvativeApp.swift */; };
 		DC1E21A1290C07030040EA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1E21A0290C07030040EA4F /* Assets.xcassets */; };
 		DC1E21A5290C07030040EA4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1E21A4290C07030040EA4F /* Preview Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC0E1D062913193D007E3D72 /* FileUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
+		DC0E1D092913225F007E3D72 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DC1E2199290C07010040EA4F /* inNOvative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inNOvative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1E219C290C07010040EA4F /* inNOvativeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inNOvativeApp.swift; sourceTree = "<group>"; };
 		DC1E21A0290C07030040EA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC0E1D0829132246007E3D72 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E1D062913193D007E3D72 /* FileUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		DC1E2190290C07010040EA4F = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +111,7 @@
 		DC1E219B290C07010040EA4F /* inNOvative */ = {
 			isa = PBXGroup;
 			children = (
+				DC0E1D0829132246007E3D72 /* Utils */,
 				DC1E21CD290C48D00040EA4F /* View */,
 				DC1E219C290C07010040EA4F /* inNOvativeApp.swift */,
 				DC1E21A0290C07030040EA4F /* Assets.xcassets */,
@@ -139,6 +152,7 @@
 				DC1E21C9290C480C0040EA4F /* ContentView.swift */,
 				DC1E21CE290C5CF30040EA4F /* CookieclickerView.swift */,
 				DC1E21D0290C639C0040EA4F /* ToDoView.swift */,
+				DC0E1D092913225F007E3D72 /* LoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -273,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0E1D0A2913225F007E3D72 /* LoginView.swift in Sources */,
+				DC0E1D072913193D007E3D72 /* FileUtils.swift in Sources */,
 				DC1E21CF290C5CF30040EA4F /* CookieclickerView.swift in Sources */,
 				DC1E21CA290C480C0040EA4F /* ContentView.swift in Sources */,
 				DC1E21D1290C639C0040EA4F /* ToDoView.swift in Sources */,

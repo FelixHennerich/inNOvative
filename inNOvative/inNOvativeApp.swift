@@ -7,13 +7,19 @@
 
 import SwiftUI
 
-// Current page variable
+//LOGIN FILE PATH
+let loginpath = "login.txt"
+
 
 @main
 struct inNOvativeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView().background(.black)
+            if(isFileAvailable(filepath: loginpath)){
+                ContentView()
+            }else {
+                
+            }
         }
     }
 }

@@ -5,7 +5,9 @@
 //  Created by Felix Hennerich on 28.10.22.
 //
 
+
 import SwiftUI
+
 
 struct ContentView: View {
     @StateObject var user = User()
@@ -39,6 +41,12 @@ struct ContentView: View {
                         }
                     }
                     Spacer()
+                    
+                    
+
+                    
+                    
+                    
                     Spacer()
                 }
             }
@@ -51,4 +59,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-

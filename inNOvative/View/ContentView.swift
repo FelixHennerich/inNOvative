@@ -44,7 +44,12 @@ struct ContentView: View {
                     
                     
 
-                    
+                    NavigationLink(destination: LoginView().navigationBarBackButtonHidden()){
+                        Text("Logout").font(.system(size: 30)).foregroundColor(.orange)
+                    }.simultaneousGesture(TapGesture().onEnded{
+                        deleteFile(filepath: loginpath)
+                    })
+
                     
                     
                     Spacer()

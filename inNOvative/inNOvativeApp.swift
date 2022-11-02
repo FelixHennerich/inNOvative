@@ -18,7 +18,7 @@ struct inNOvativeApp: App {
             if(isFileAvailable(filepath: loginpath)){
                 ContentView()
             }else {
-                
+                LoginView()
             }
         }
     }

@@ -45,6 +45,7 @@ func deleteFile(filepath: String){
 
 func createFile(content: String, filename: String){
     let str = content
+    print("trying to create")
     if(!isFileAvailable(filepath: filename)){
         let url = getDocumentsDirectory().appendingPathComponent(filename)
         
@@ -52,6 +53,7 @@ func createFile(content: String, filename: String){
             try str.write(to: url, atomically: true, encoding: .utf8)
             let input = try String(contentsOf: url)
             print("File: " + filename + " got created")
+            print("FileInput: " + input)
         } catch {
             print(error.localizedDescription)
         }
